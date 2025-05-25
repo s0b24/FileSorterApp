@@ -88,7 +88,7 @@ class Main(ctk.CTk):
         self.title('Sort app')
         self.geometry(self.position_center_screen(321, 270))
         self.configure(bg_color='#242424')
-        self.iconbitmap(bitmap='C:/Users/vladi/Desktop/apps/sort/icon.ico')
+        # self.iconbitmap(bitmap='')
 
         # Sorting of progress information
         self.sort_info_window = ctk.CTkTextbox(self, 
